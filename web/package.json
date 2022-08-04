@@ -1,0 +1,27 @@
+{
+  "name": "car-platforms",
+  "version": "1.0.0",
+  "description": "",
+  "source": "./src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --no-content-hash ./src/index.html --no-source-maps"
+  },
+  "targets": {
+    "default": {
+      "distDir": "./out"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@react-nano/use-event-source": "^0.11.0",
+    "p-throttle": "^5.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2",
+    "parcel": "^2.0.0"
+  }
+}

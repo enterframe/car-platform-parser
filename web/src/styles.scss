@@ -1,0 +1,40 @@
+body {
+	font-family: Arial;
+}
+
+a {
+	text-decoration: none !important;
+	color: dimgrey !important;
+	display: block;
+	&:hover {
+		color: black !important;
+		background-color: lightgray;
+	}
+}
+
+.App {
+
+	h1 {
+		color: black !important;
+		border-bottom: 1px solid black;
+		margin-bottom: 5px;
+		text-align: right;
+		font-size: 30px;
+		position: sticky;
+		top: 0;
+		background-color: white;
+	}
+
+	.title {
+			margin: 0;
+	}
+
+	.image {
+		display: block;
+		margin: 5px 0;
+	}
+
+	.price {
+		font-size: 30px;
+	}
+}
